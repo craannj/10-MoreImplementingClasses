@@ -457,7 +457,7 @@ class Line(object):
         #        They include the Example in the above doc-string.
         # ---------------------------------------------------------------------
         x_distance = (self.start.x - self.end.x) ** 2
-        y_distance = (self.start.y  - self.end.y) ** 2
+        y_distance = (self.start.y - self.end.y) ** 2
         distance = math.sqrt(x_distance + y_distance)
         return distance
 
